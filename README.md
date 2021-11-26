@@ -4,7 +4,7 @@ Contributions: Issues, comments and pull requests are super welcome 😃
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 # Table of Contents
 - [Chapter 1. Introduction](#Chapter-1-introduction)
-- [Chapter 2. Meaningful Names](#Chapter-1-meaningful-names)
+- [Chapter 2. Meaningful Names](#Chapter-2-meaningful-names)
 <!-- /TOC -->
 # Chapter 1. Introduction
 - This Book is about good programming. It's about how to write good code, and how to transform bad code into good code.
