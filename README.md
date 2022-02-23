@@ -5,6 +5,7 @@ Contributions: Issues, comments and pull requests are super welcome 😃
 # Table of Contents
 - [Chapter 1. Introduction](#Chapter-1-introduction)
 - [Chapter 2. Meaningful Names](#Chapter-2-meaningful-names)
+- [Chapter 3. Functions](#Chapter-3-functions)
 <!-- /TOC -->
 # Chapter 1. Introduction
 - This Book is about good programming. It's about how to write good code, and how to transform bad code into good code.
@@ -69,3 +70,16 @@ Contributions: Issues, comments and pull requests are super welcome 😃
 - **Don’t add gratuitous context**
 	- In an imaginary application called “Gas Station Deluxe,” it is a bad idea to prefix every class with GSD. Example: GSDAccountAddress.
 	- Shorter names are generally better than longer ones, so long as they are clear. Add no more context to a name than is necessary.
+# Chapter 3. Functions
+- Functions are the first line of organization in any program.
+- The first rule of functions is that they should be small.
+- The blocks within if statements, else statements, while statements, and so on should be one line long.
+- Functions should not be large enough to hold nested structures.
+- The indent level of a function should not be greater than one or two to increse readability.
+- Functions should do one thing. They should do it well. They should do it only.
+- The reason we write functions is to decompose a larger concept into a set of steps at the next level of abstraction.
+- Another way to know that a function is doing more than “one thing” is if you can extract another function from it with a name that is not merely a restatement of its implementation.
+- Functions that do one thing cannot be reasonably divided into sections.
+- Mixing levels of abstraction within a function is always confusing.
+- Stepdown rule: We want every function to be followed by those at the next level of abstraction so that we can read the program, descending one level of abstraction at a time as we read down the list of functions.
+- Making the code read like a top-down set of TO paragraphs is an effective technique for keeping the abstraction level consistent.
